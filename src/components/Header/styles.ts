@@ -1,10 +1,10 @@
-import styles from 'styled-components'
+import styled from 'styled-components'
 
-export const Container = styles.header`
+export const Container = styled.header`
   background: var(--blue);
 `
 
-export const Content = styles.header`
+export const Content = styled.header`
   max-width: 1120px;
   margin: 0 auto;
 
